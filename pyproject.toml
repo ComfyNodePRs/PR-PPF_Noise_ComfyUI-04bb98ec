@@ -1,0 +1,15 @@
+[project]
+name = "ppf_noise_comfyui"
+description = "Nodes: WAS_PFN_Latent. Perlin Power Fractal Noisey Latents"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch"]
+
+[project.urls]
+Repository = "https://github.com/WASasquatch/PPF_Noise_ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "PPF_Noise_ComfyUI"
+Icon = ""
